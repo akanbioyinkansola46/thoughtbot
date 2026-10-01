@@ -387,17 +387,6 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-
-.brand-logo {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  font-size: 1.75rem;
-  font-weight: 700;
-  color: #ffffff;
-  margin-bottom: 40px;
-}
-
 .footer-legal p {
   margin: 0 0 12px 0;
   font-size: 0.9rem;
@@ -471,15 +460,13 @@ body {
   text-decoration-style: dotted;
   text-underline-offset: 4px;
 }
- 
+
   .footer-container {
     grid-template-columns: 1fr;
     gap: 40px;
   }
   
-  .footer-nav-columns {
-    grid-template-columns: repeat(2, 1fr);
-  }
+ 
   
   .footer-bottom-info {
     flex-direction: column;
